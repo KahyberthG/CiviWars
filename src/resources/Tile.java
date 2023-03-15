@@ -1,2 +1,38 @@
-package resources;public class Tile {
+package resources;
+
+public class Tile {
+
+    private int x;
+    private int y;
+    private String terrainType;
+
+    public Tile(int x, int y, String terrainType) {
+        this.x = x;
+        this.y = y;
+        this.terrainType = terrainType;
+    }
+
+    public int getX() {
+        return x;
+    }
+
+    public void setX(int x) {
+        this.x = x;
+    }
+
+    public int getY() {
+        return y;
+    }
+
+    public void setY(int y) {
+        this.y = y;
+    }
+
+    public String getTerrainType() {
+        return terrainType;
+    }
+
+    public void setTerrainType(String terrainType) {
+        this.terrainType = terrainType;
+    }
 }
